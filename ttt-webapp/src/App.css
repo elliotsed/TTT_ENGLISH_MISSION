@@ -2,6 +2,9 @@
   background-color: #E4FFFC;
 }
 
+h2 {
+  color: #05475C;
+}
 
 .custom-color {
   background-color:  white; /* Définit la couleur de fond initiale */
@@ -19,7 +22,18 @@
   height: 250px;
 }
 
+.ff2 {
+  background-color: #05475C;
+  color: white;
+  height: 300px;
+}
+
 .custom-card {
   background-color: #05475C;
   color: white;
+}
+
+.vid {
+  border: 1px solid;
+  border-radius: 10px;
 }

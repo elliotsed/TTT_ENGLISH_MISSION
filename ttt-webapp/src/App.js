@@ -8,6 +8,10 @@ import step from "./images/steps.svg";
 import training1 from "./images/sepfa.jpg";
 import training2 from "./images/40days1.png";
 import training3 from "./images/presentiel.png";
+import video1 from "./videos/TestimonialAD.mp4";
+import video2 from "./videos/TestimonialMarina.mp4";
+import video3 from "./videos/testimonyRomain.mp4";
+import contactUs from "./images/contactus.svg";
 
 
 function App() {
@@ -43,18 +47,10 @@ function App() {
       }
       <div className="container-fluid ff">
         <div className="row">
-          <div className="mt-5">
-            <div className="d-flex justify-content-center">
-              <h1>TRAINING THAT TRANSFORM</h1>
-            </div>
-
-            <div className="d-flex justify-content-center">
-              <p>Vous apprendrez la manière la plus simple et la plus facile d'apprendre l'anglais <br /> grâce à TTT ENGLISH MISSION</p>
-            </div>
-
-            <div className="d-flex justify-content-center">
-              <button className="btn custom-color text-white">Inscription</button>
-            </div>
+          <div className="mt-5 text-center">
+            <h1>TRAINING THAT TRANSFORM</h1>
+            <p>Vous apprendrez la manière la plus simple et la plus facile d'apprendre l'anglais grâce à TTT ENGLISH MISSION</p>
+            <button className="btn custom-color text-white">Inscription</button>
           </div>
         </div>
       </div>
@@ -236,6 +232,104 @@ function App() {
 
         </div>
       </div>
+
+      <hr />
+
+      {
+        //Section5(Témoignages)
+      }
+
+      <div className="container-fluid">
+        <div className="row">
+          <div className="d-flex justify-content-center mt-5">
+            <h2>Qu'ont-ils pensé de nos formations?</h2>
+          </div>
+
+          <div className="col-lg-6 mt-3">
+            <div class="card custom-card h-100">
+              <div class="card-body">
+                <p class="card-text">You made a lot of change in our speech, in our listening. We changed our way to think too. Thanks to you, today I'm speaking. The first day we started our training it was very difficult for me to even say 'Good morning' to someone.
+                  But I can read and sometimes understand when African people speak. But it was very hard for me to express myself. But today I'm thankful that today I can even speak and listen to and understand audios and videos... This is a proof that you changed everything in our English Language Learning. Thank you.</p>
+              </div>
+              <hr />
+              <p className="text-center">Mr. Djodi Bachirou, Secondary School Teacher, Calavi, Benin, +229 69460023</p>
+            </div>
+          </div>
+
+          <div className="col-lg-6 mt-3">
+            <div class="card custom-card h-100">
+              <div class="card-body">
+                <p class="card-text">I just want to talk a little bit about what I'm experiencing with your program. I really like it and I can say that before I started this program with you I couldn't speak English with someone. I couldn't make 2 or 3 sentences correctly.
+                  But right now I can say that yes, I made great progress about that and I'm still improving of course...So, I just want to say thank you for this opportunity that you gave us to speak English and be very very smart in our listening.</p>
+              </div>
+              <hr />
+              <p className="text-center">Mr. Moïse Djebou, Computer Engineer, Cotonou, Benin, +229 62439570</p>
+            </div>
+          </div>
+        </div>
+        <div className="row mb-5">
+          <div className="col-lg-4 mt-3">
+            <div className="vid">
+              <video width="100%" height={200} controls>
+                <source src={video1} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+          <div className="col-lg-4 mt-3">
+            <div className="vid">
+              <video width="100%" height={200} controls>
+                <source src={video2} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+          <div className="col-lg-4 mt-3">
+            <div className="vid">
+              <video width="100%" height={200} controls>
+                <source src={video3} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {
+        //Section5(Let's Build your Dreams)
+      }
+
+      <div className="container-fluid ff2">
+        <div className="row">
+          <div className="mt-5 text-center">
+            <h1>LET’S BUILD YOUR DREAMS</h1>
+            <p className="mt-3">Dépassez totalement votre peur de vous exprimer couramment en Anglais</p>
+            <p>Contactez-nous maintenant par WhatsApp pour démarrer un cours personnalisé, adapté à vos besoins et à votre disponibilié.</p>
+
+            <div className="d-flex justify-content-center">
+              <a className="btn custom-color">
+                <Icon icon="logos:whatsapp-icon" width={30} /> Let's go
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="row mt-5">
+          <hr className="" />
+        </div>
+
+      </div>
+
+
+      {
+        //Section5(Let's Build your Dreams)
+      }
+      <footer class="py-3 custom-card">
+        <p class="text-center mt-3 text-white">Copyright &copy;
+ 2023 - Training That Transform <br/>Tous Droits Réservés</p>
+      </footer>
+
+
+
 
 
     </>
