@@ -1,0 +1,25 @@
+.custom-nav {
+  background-color: #E4FFFC;
+}
+
+
+.custom-color {
+  background-color:  white; /* Définit la couleur de fond initiale */
+  color: black!important; /* Définit la couleur de texte initiale */
+}
+
+.custom-color:hover {
+  background-color:  white; /* Remplace avec la nouvelle couleur pour le survol */
+  color: black; /* Remplace avec la nouvelle couleur de texte pour le survol */
+}
+
+.ff {
+  background-color: #05475C;
+  color: white;
+  height: 250px;
+}
+
+.custom-card {
+  background-color: #05475C;
+  color: white;
+}
