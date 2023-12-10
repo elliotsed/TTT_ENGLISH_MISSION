@@ -7,13 +7,17 @@ h2 {
 }
 
 .custom-color {
-  background-color:  white; /* Définit la couleur de fond initiale */
-  color: black!important; /* Définit la couleur de texte initiale */
+  background-color: white;
+  /* Définit la couleur de fond initiale */
+  color: black !important;
+  /* Définit la couleur de texte initiale */
 }
 
 .custom-color:hover {
-  background-color:  white; /* Remplace avec la nouvelle couleur pour le survol */
-  color: black; /* Remplace avec la nouvelle couleur de texte pour le survol */
+  background-color: white;
+  /* Remplace avec la nouvelle couleur pour le survol */
+  color: black;
+  /* Remplace avec la nouvelle couleur de texte pour le survol */
 }
 
 .ff {
@@ -31,9 +35,37 @@ h2 {
 .custom-card {
   background-color: #05475C;
   color: white;
+  animation: heartbeat 4s infinite;
+}
+
+.custom-footer {
+  background-color: #05475C;
+  color: white;
 }
 
 .vid {
   border: 1px solid;
   border-radius: 10px;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  75% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
