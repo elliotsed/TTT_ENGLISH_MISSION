@@ -8,6 +8,7 @@ import Steps from "./components/Steps";
 import Formation from "./components/Formation";
 import Temoignage from "./components/Temoignage";
 import { Icon } from '@iconify/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 function App() {
