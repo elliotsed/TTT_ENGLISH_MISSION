@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../images/logottt1.png';
 import { Icon } from '@iconify/react';
+import "../App.css"
 
 function Navbar() {
     const [collapsed, setCollapsed] = useState(true);
