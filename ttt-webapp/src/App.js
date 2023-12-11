@@ -56,7 +56,7 @@ function App() {
           2023 - Training That Transform <br />Tous Droits Réservés</p>
       </footer>
 
-
+      <SpeedInsights />
 
 
 
