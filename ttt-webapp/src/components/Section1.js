@@ -16,7 +16,7 @@ function Section1() {
 
                     </div>
                     <div className="d-flex justify-content-center mt-2">
-                        <a href='https://Shorturl.at/ctvX1' className="btn custom-color text-white">Inscription</a>
+                        <a href='https://Shorturl.at/ctvX1' target="_blank" rel="noopener noreferrer" className="btn custom-color text-white">Inscription</a>
                     </div>
 
                 </div>
