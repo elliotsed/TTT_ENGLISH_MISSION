@@ -33,7 +33,7 @@ function Steps() {
                                             pouvez le faire
                                             en cliquant sur le
                                             bouton 'Inscription' plus
-                                            haut. Vous serez rediridé vers un formulaire
+                                            haut. Vous serez redirigé vers un formulaire
                                             que vous remplirez</p>
                                     </div>
                                 </div>
