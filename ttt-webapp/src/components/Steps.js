@@ -2,7 +2,7 @@ import React from 'react';
 import step from "../images/steps.svg";
 
 
-function Section3() {
+function Steps() {
     return (
         <>
             <div className="container-fluid">
@@ -32,7 +32,7 @@ function Section3() {
                                             vous inscrire. Vous
                                             pouvez le faire
                                             en cliquant sur le
-                                            bouton s’inscrire plus
+                                            bouton 'Inscription' plus
                                             haut. Vous serez rediridé vers un formulaire
                                             que vous remplirez</p>
                                     </div>
@@ -93,4 +93,4 @@ function Section3() {
     )
 }
 
-export default Section3;
+export default Steps;

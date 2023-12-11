@@ -3,7 +3,7 @@ import mission from "../images/mission1.jpg";
 import { Icon } from '@iconify/react';
 
 
-function Section2() {
+function Infos() {
     return (
         <>
             <div className="container-fluid">
@@ -80,4 +80,4 @@ function Section2() {
     )
 }
 
-export default Section2;
+export default Infos;

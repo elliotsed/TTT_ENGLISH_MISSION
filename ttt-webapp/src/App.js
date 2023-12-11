@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from "./components/Navbar";
 import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
+import Infos from "./components/Infos";
+import Steps from "./components/Steps";
 import Formation from "./components/Formation";
 import Temoignage from "./components/Temoignage";
 import { Icon } from '@iconify/react';
@@ -16,8 +16,8 @@ function App() {
     <>
       <Navbar />
       <Section1 />
-      <Section2 />
-      <Section3 />
+      <Infos />
+      <Steps />
       <Formation />
       <Temoignage />
 
@@ -26,7 +26,7 @@ function App() {
         //(Let's Build your Dreams)
       }
 
-      <div className="container-fluid ff2">
+      <div className="container-fluid ff2" id="contact">
         <div className="row">
           <div className="mt-5 text-center">
             <h1>LET’S BUILD YOUR DREAMS</h1>
@@ -34,7 +34,7 @@ function App() {
             <p>Contactez-nous maintenant par WhatsApp pour démarrer un cours personnalisé, adapté à vos besoins et à votre disponibilié.</p>
 
             <div className="d-flex justify-content-center">
-              <a className="btn custom-color">
+              <a className="btn custom-color" href="https://wa.me/+22951003776/?text=Bonjour%20!%20Je%20suis%20intéressé%20par%20vos%20services.">
                 <Icon icon="logos:whatsapp-icon" width={30} /> Let's go
               </a>
             </div>
