@@ -34,7 +34,7 @@ function Navbar() {
                 <div className={`collapse navbar-collapse ${collapsed ? '' : 'show'}`} id="navbarNav">
                     <div className="navbar-nav mx-auto d-md-none d-lg-none d-sm-none">
                         <a className="nav-link" href="#formations">
-                        Formations
+                            Formations
                         </a>
                         <a className="nav-link" href="#temoignages">
                             Témoignages
@@ -42,7 +42,9 @@ function Navbar() {
                         <a className="nav-link" href="#contact">
                             Contact
                         </a>
-                        {/* Ajoutez d'autres liens d'ancrage pour vos sections ici */}
+                        <a className="nav-link" href="mailto:tttmission@gmail.com">
+                            <Icon icon="clarity:email-solid" width={30} />
+                        </a>
                     </div>
                     <div className="navbar-nav mx-auto d-none d-md-block">
                         <h3 className="navbar-text">
