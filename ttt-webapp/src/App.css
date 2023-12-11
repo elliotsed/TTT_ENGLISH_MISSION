@@ -32,6 +32,10 @@ h2 {
   height: 350px;
 }
 
+.lien {
+  text-decoration: none;
+}
+
 .custom-card {
   background-color: #05475C;
   color: white;
