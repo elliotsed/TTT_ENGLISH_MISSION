@@ -8,8 +8,6 @@ import Steps from "./components/Steps";
 import Formation from "./components/Formation";
 import Temoignage from "./components/Temoignage";
 import { Icon } from '@iconify/react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
 
 function App() {
   return (
@@ -58,18 +56,7 @@ function App() {
         <p class="text-center mt-3 text-white">Copyright &copy;
           2023 - Training That Transform <br />Tous Droits Réservés</p>
       </footer>
-
-      <SpeedInsights />
-
-
-
     </>
-
-
-
-
-
-
   );
 }
 
