@@ -52,7 +52,7 @@ function Navbar() {
                         </h3>
                     </div>
                     <div className="navbar-nav mx-auto d-none d-sm-block">
-                        <Icon icon="clarity:email-solid" width={25} className='me-2' /> tttmission@gmail.com
+                        <a href="mailto:tttmission@gmail.com"><Icon icon="clarity:email-solid" width={30} className='me-2' /> tttmission@gmail.com</a>
                     </div>
                 </div>
             </div>
