@@ -35,8 +35,11 @@ function App() {
             <p>Contactez-nous maintenant par WhatsApp pour démarrer un cours personnalisé, adapté à vos besoins et à votre disponibilié.</p>
 
             <div className="d-flex justify-content-center">
-              <a className="btn custom-color" href="https://wa.me/+22951003776/?text=Bonjour%20!%20Je%20suis%20intéressé%20par%20vos%20services.">
-                <Icon icon="logos:whatsapp-icon" width={30} /> Let's go
+              <a className="btn custom-color" href="https://wa.me/+22951003776/?text=Bonjour%20!%20Je%20suis%20intéressé%20par%20vos%20formations.">
+                <Icon icon="logos:whatsapp-icon" width={30} /> Par Whatsapp
+              </a>
+              <a className="btn custom-color" href="mailto:tttmission@gmail.com">
+                <Icon icon="clarity:email-solid" width={30} className='me-2' /> Par E-mail
               </a>
             </div>
           </div>
