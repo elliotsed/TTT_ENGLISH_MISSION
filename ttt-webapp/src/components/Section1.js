@@ -8,11 +8,11 @@ function Section1() {
             <div className="row">
                 <div className="mt-4 text-center">
                     <div className="d-flex justify-content-center">
-                        <h1>TRAINING THAT TRANSFORM</h1>
+                        <h1>TRAININGS THAT TRANSFORM</h1>
 
                     </div>
                     <div className="d-flex justify-content-center">
-                        <p>Vous apprendrez la manière la plus simple et la plus facile d'apprendre l'anglais grâce à TTT ENGLISH MISSION</p>
+                        <p>Découvrez ce que nous ferons avec vous avec passion tous les jours durant les prochains mois de l'année.</p>
 
                     </div>
                     <div className="d-flex justify-content-center mt-2">

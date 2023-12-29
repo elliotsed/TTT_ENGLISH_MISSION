@@ -3,12 +3,14 @@ import training1 from "../images/sepfa.jpg";
 import training2 from "../images/40days1.png";
 import training3 from "../images/presentiel.png";
 import { Icon } from '@iconify/react';
+import '../App.css';
+
 
 function Formation() {
     return (
         <>
             <div className="container-fluid" id='formations'>
-                <div className="row">
+                <div className="row mb-5">
                     <div className="d-flex justify-content-center">
                         <h2 className="text-center text-md-start">Découvrez nos offres de formation</h2>
                     </div>
@@ -37,17 +39,20 @@ function Formation() {
                         <div class="card h-100">
                             <img src={training3} class="card-img-top" alt="..."/>
                             <div class="card-body">
-                                <h5 class="card-title">The Presential Class In The Centers</h5>
+                                <h5 class="card-title">The Presential Class In Our Centers</h5>
                                 <p class="card-text">Venez directement dans nos locaux et suivez nos cours en présentiel</p>
-                                <Icon icon="mdi:address-marker" width={25} /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                <Icon icon="mdi:address-marker" width={25} /> TTT ENGLISH MISSION CENTER, <br/> Akassato Goudron Kerekou, Rue de La Boulangerie Main D'or. 
                             </div>
                         </div>
+                    </div>
+
+                    <div className="d-flex justify-content-center mt-2">
+                        <a href='https://Shorturl.at/ctvX1' target="_blank" rel="noopener noreferrer" className="btn custom-color2 text-white">Inscription</a>
                     </div>
 
                 </div>
             </div>
 
-            <hr className="my-5" />
         </>
     )
 }

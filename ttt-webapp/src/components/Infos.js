@@ -1,5 +1,5 @@
 import React from 'react';
-import mission from "../images/mission1.jpg";
+import graphic from "../images/graphic.png";
 import { Icon } from '@iconify/react';
 
 
@@ -8,14 +8,14 @@ function Infos() {
         <>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="mt-5">
+                    {/*<div className="mt-5">
                         <h2 className="text-center text-md-start">Découvrez ce que nous faisons avec passion
                             tous les jours et tous les mois de l'année</h2>
-                    </div>
+    </div>*/}
 
                     <div className="col-lg-6 col-md-6 mt-4 d-md-none d-sm-block">
                         <img
-                            src={mission}
+                            src={graphic}
                             alt="Un homme allant vers son objectif"
                             width="100%"
                             className="img-fluid"
@@ -24,17 +24,12 @@ function Infos() {
 
                     <div className="col-lg-6 col-md-6 mt-4">
                         <h2 className="text-center text-md-start">Notre Mission</h2>
-                        <p className="mt-2">Nous aimons recevoir, aider avec grande joie
-                            et propulser à travers des programmes extraordinaires
-                            et méthodes hors du commun tous les professionnels
-                            et étudiants qui ont la flamme brûlante d’apprendre
-                            l’Anglais plus facilement, de comprendre plus rapidement,
-                            de maîtriser plus globalement et d’accélérer plus
-                            radicalement leur niveau en Anglais.
+                        <p className="mt-2 text-md-start text-center">Aider des milliers de professionnels et d'étudiants comme vous à dépasser totalement leur peur de
+                        s'exprimer couramment en Anglais.
                         </p>
                         <div className="d-md-none d-lg-block">
                             <h2 className="text-center text-md-start">Pourquoi nous rejoindre dès aujourd'hui?</h2>
-                            <p className="mt-2">Pour commencer immédiatement à accélérer et transformer votre expression orale,
+                            <p className="mt-2 text-md-start text-center">Pour commencer immédiatement à accélérer et transformer votre expression orale,
                                 vocabulaire, écoute, compréhension orale et écrite et anglais parlé depuis chez vous ou votre lieu de travail,
                                 avec un suivi quotidien et personnalisé de coachs/instructeurs personnels.
                             </p>
@@ -51,7 +46,7 @@ function Infos() {
                     </div>
                     <div className="col-lg-6 col-md-6 mt-4 d-none d-md-block">
                         <img
-                            src={mission}
+                            src={graphic}
                             alt="Un homme allant vers son objectif"
                             width="100%"
                             className="img-fluid"

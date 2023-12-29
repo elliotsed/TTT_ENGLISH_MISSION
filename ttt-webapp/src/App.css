@@ -13,6 +13,20 @@ h2 {
   /* Définit la couleur de texte initiale */
 }
 
+.custom-color2 {
+  background-color: #05475C;
+  /* Définit la couleur de fond initiale */
+  color: white !important;
+  /* Définit la couleur de texte initiale */
+}
+
+.custom-color2:hover {
+  background-color: #05475C;
+  /* Définit la couleur de fond initiale */
+  color: white !important;
+  /* Définit la couleur de texte initiale */
+}
+
 .custom-color:hover {
   background-color: white;
   /* Remplace avec la nouvelle couleur pour le survol */

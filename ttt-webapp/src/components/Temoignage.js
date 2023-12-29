@@ -8,7 +8,7 @@ function Temoignage() {
         <div className="container-fluid" id='temoignages'>
             <div className="row">
                 <div className="d-flex justify-content-center">
-                    <h2 className="text-center text-md-start">Qu'ont-ils pensé de nos formations?</h2>
+                    <h2 className="text-center">Lisez quelques témoignages de ceux qui y sont déjà arrivés!</h2>
                 </div>
 
                 <div className="col-lg-6 col-md-6 mt-3">
@@ -34,7 +34,7 @@ function Temoignage() {
                 </div>
             </div>
             <div className="row mb-5">
-                <h2 className="text-center d-md-none d-lg-none mt-4">Plus en vidéo </h2>
+                <h2 className="text-center mt-4">Plus de témoignages en vidéo </h2>
                 <div className="col-lg-4 col-md-4 mt-3">
                     <div className="vid">
                         <video width="100%" height={200} controls>
@@ -58,8 +58,12 @@ function Temoignage() {
                         </video>
                     </div>
                 </div>
+                <hr className="my-5" />
+
             </div>
+
         </div>
+
     )
 }
 export default Temoignage;

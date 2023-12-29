@@ -28,10 +28,7 @@ function Steps() {
 
                                     <div class="card-body">
                                         <h5>S'inscrire</h5>
-                                        <p class="card-text">Vous devez d’abord
-                                            vous inscrire. Vous
-                                            pouvez le faire
-                                            en cliquant sur le
+                                        <p class="card-text">Cliquez sur le
                                             bouton 'Inscription' plus
                                             haut. Vous serez redirigé vers un formulaire
                                             que vous remplirez</p>
@@ -60,8 +57,7 @@ function Steps() {
                                     </span>
                                     <div class="card-body">
                                         <h5>Choix des jours et horaires de cours</h5>
-                                        <p class="card-text">La prochaine étape
-                                            sera de choisir vos
+                                        <p class="card-text">Choisissez vos
                                             jours et horaires de
                                             cours selon votre
                                             disponibilité.</p>
@@ -76,10 +72,8 @@ function Steps() {
                                     </span>
                                     <div class="card-body">
                                         <h5>Paiement</h5>
-                                        <p class="card-text">Pour finir vous devrez
-                                            valider votre inscription
-                                            en payant les frais de
-                                            formation.</p>
+                                        <p class="card-text">Pour finir validez votre inscription
+                                            en payant les frais de formation.</p>
                                     </div>
                                 </div>
                             </div>

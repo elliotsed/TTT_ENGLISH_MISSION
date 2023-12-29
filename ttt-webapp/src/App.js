@@ -16,9 +16,10 @@ function App() {
       <Navbar />
       <Section1 />
       <Infos />
+      <Temoignage />
+
       <Steps />
       <Formation />
-      <Temoignage />
 
 
       {
@@ -33,7 +34,7 @@ function App() {
             <p>Contactez-nous maintenant par WhatsApp pour démarrer un cours personnalisé, adapté à vos besoins et à votre disponibilié.</p>
 
             <div className="d-flex justify-content-center">
-              <a className="btn custom-color" href="https://wa.me/+22994605100/?text=Bonjour%20!%20Je%20suis%20intéressé%20par%20vos%20formations.">
+              <a className="btn custom-color" href="https://wa.me/+22969109929/?text=Bonjour%20!%20Je%20suis%20intéressé%20par%20vos%20formations.">
                 <Icon icon="logos:whatsapp-icon" width={30} /> Let's go
               </a>
             </div>
@@ -51,7 +52,7 @@ function App() {
       }
       <footer class="py-2 custom-footer">
         <p class="text-center mt-3 text-white">Copyright &copy;
-          2023 - Training That Transform <br />Tous Droits Réservés</p>
+          2023 - Trainings That Transform - English Mission <br />Tous Droits Réservés</p>
       </footer>
     </>
   );
