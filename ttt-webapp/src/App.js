@@ -30,8 +30,9 @@ function App() {
         <div className="row">
           <div className="mt-5 text-center">
             <h1>LET’S BUILD YOUR DREAMS</h1>
-            <p className="mt-3">Dépassez totalement votre peur de vous exprimer couramment en Anglais</p>
-            <p>Contactez-nous maintenant par WhatsApp pour démarrer un cours personnalisé, adapté à vos besoins et à votre disponibilié.</p>
+            <p className="custom-size mt-3">Contactez Le Manager au <strong>+229 94605100</strong></p>
+            <p className="custom-size mt-3">OU</p>
+            <p className="custom-size">Contactez-nous directement par WhatsApp</p>
 
             <div className="d-flex justify-content-center">
               <a className="btn custom-color" href="https://wa.me/+22969109929/?text=Bonjour%20!%20Je%20suis%20intéressé%20par%20vos%20formations.">

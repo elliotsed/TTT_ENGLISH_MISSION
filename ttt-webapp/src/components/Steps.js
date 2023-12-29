@@ -30,7 +30,7 @@ function Steps() {
                                         <h5>S'inscrire</h5>
                                         <p class="card-text">Cliquez sur le
                                             bouton 'Inscription' plus
-                                            haut. Vous serez redirigé vers un formulaire
+                                            bas. Vous serez redirigé vers un formulaire
                                             que vous remplirez</p>
                                     </div>
                                 </div>
@@ -76,6 +76,10 @@ function Steps() {
                                             en payant les frais de formation.</p>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div className="d-flex justify-content-center mt-3">
+                                <a href='https://Shorturl.at/ctvX1' target="_blank" rel="noopener noreferrer" className="btn custom-color2 text-white">Inscription</a>
                             </div>
                         </div>
 

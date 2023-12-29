@@ -15,9 +15,10 @@ function Section1() {
                         <p>Découvrez ce que nous ferons avec vous avec passion tous les jours durant les prochains mois de l'année.</p>
 
                     </div>
-                    <div className="d-flex justify-content-center mt-2">
-                        <a href='https://Shorturl.at/ctvX1' target="_blank" rel="noopener noreferrer" className="btn custom-color text-white">Inscription</a>
+                    <div className="d-flex justify-content-center">
+                        <p>Adresse-Siège: Akassato, Goudron Kerekou, Rue de La Boulangerie Main D'or</p>
                     </div>
+                   
 
                 </div>
             </div>
