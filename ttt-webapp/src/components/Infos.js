@@ -8,15 +8,11 @@ function Infos() {
         <>
             <div className="container-fluid">
                 <div className="row">
-                    {/*<div className="mt-5">
-                        <h2 className="text-center text-md-start">Découvrez ce que nous faisons avec passion
-                            tous les jours et tous les mois de l'année</h2>
-    </div>*/}
 
                     <div className="col-lg-6 col-md-6 mt-4 d-md-none d-sm-block">
                         <img
                             src={graphic}
-                            alt="Un homme allant vers son objectif"
+                            alt="flyers ttt english mission"
                             width="100%"
                             className="img-fluid"
                         />
@@ -25,50 +21,35 @@ function Infos() {
                     <div className="col-lg-6 col-md-6 mt-4">
                         <h2 className="text-center text-md-start">Notre Mission</h2>
                         <p className="mt-2 text-md-start text-center">Aider des milliers de professionnels et d'étudiants comme vous à dépasser totalement leur peur de
-                        s'exprimer couramment en Anglais.
+                            s'exprimer couramment en Anglais.
                         </p>
-                        <div className="d-md-none d-lg-block">
-                            <h2 className="text-center text-md-start">Pourquoi nous rejoindre dès aujourd'hui?</h2>
-                            <p className="mt-2 text-md-start text-center">Pour commencer immédiatement à accélérer et transformer votre expression orale,
-                                vocabulaire, écoute, compréhension orale et écrite et anglais parlé depuis chez vous ou votre lieu de travail,
-                                avec un suivi quotidien et personnalisé de coachs/instructeurs personnels.
-                            </p>
-                            <div className="d-flex justify-content-center">
-                                <Icon icon="emojione:speaking-head" className="me-2" width={50} />
-                                <Icon icon="uil:assistive-listening-systems" color="gray" className="me-2" width={50} />
-                                <Icon icon="emojione-monotone:writing-hand" color="gray" className="me-2" width={50} />
-                                <Icon icon="fluent-emoji-high-contrast:teacher" color="gray" width={50} />
 
-                            </div>
+                        <h2 className="text-center text-md-start">Pourquoi nous rejoindre dès aujourd'hui?</h2>
+                        <p className="mt-2 text-md-start text-center">Pour commencer immédiatement à accélérer et transformer votre expression orale,
+                            vocabulaire, écoute, compréhension orale et écrite et anglais parlé depuis chez vous ou votre lieu de travail,
+                            avec un suivi quotidien et personnalisé de coachs/instructeurs personnels.
+                        </p>
+                        
+                        <div className="d-flex justify-content-center">
+                            <Icon icon="emojione:speaking-head" className="me-2" width={50} />
+                            <Icon icon="uil:assistive-listening-systems" color="gray" className="me-2" width={50} />
+                            <Icon icon="emojione-monotone:writing-hand" color="gray" className="me-2" width={50} />
+                            <Icon icon="fluent-emoji-high-contrast:teacher" color="gray" width={50} />
 
                         </div>
+
 
                     </div>
                     <div className="col-lg-6 col-md-6 mt-4 d-none d-md-block">
                         <img
                             src={graphic}
-                            alt="Un homme allant vers son objectif"
+                            alt="flyers ttt english mission"
                             width="100%"
                             className="img-fluid"
                         />
                     </div>
                 </div>
 
-                <div className="row d-none d-md-block d-lg-none mt-4">
-                    <div className="text-center">
-                        <h2>Pourquoi nous rejoindre dès aujourd'hui?</h2>
-                        <p className="mt-2">Pour commencer immédiatement à accélérer et transformer votre expression orale,
-                            vocabulaire, écoute, compréhension orale et écrite et anglais parlé depuis chez vous ou votre lieu de travail,
-                            avec un suivi quotidien et personnalisé de coachs/instructeurs personnels.
-                        </p>
-                        <Icon icon="emojione:speaking-head" className="me-2" width={50} />
-                        <Icon icon="uil:assistive-listening-systems" color="gray" className="me-2" width={50} />
-                        <Icon icon="emojione-monotone:writing-hand" color="gray" className="me-2" width={50} />
-                        <Icon icon="fluent-emoji-high-contrast:teacher" color="gray" width={50} />
-
-                    </div>
-
-                </div>
             </div>
             <hr className="my-5" />
         </>
