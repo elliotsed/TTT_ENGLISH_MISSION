@@ -7,9 +7,7 @@ function Section1() {
         <div className="container-fluid ff">
             <div className="row">
                 <div className="mt-4 text-center">
-                    <div className="d-flex justify-content-center">
-                        <h2 className='text-white'>TRAININGS THAT TRANSFORM</h2>
-                    </div>
+                    <h2>TRAININGS THAT TRANSFORM</h2>
                     <div className="d-flex justify-content-center">
                         <p>Dépassez totalement votre peur de vous exprimer couramment en Anglais.</p>
                     </div>
@@ -19,7 +17,7 @@ function Section1() {
                     <div className="d-flex justify-content-center">
                         <p>Découvrez ce que nous ferons avec vous avec passion tous les jours durant les prochains mois de l'année.</p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
