@@ -8,7 +8,7 @@ function Section1() {
             <div className="row">
                 <div className="mt-4 text-center">
                     <div className="d-flex justify-content-center">
-                        <h1>TRAININGS THAT TRANSFORM</h1>
+                        <h2 className='text-white'>TRAININGS THAT TRANSFORM</h2>
                     </div>
                     <div className="d-flex justify-content-center">
                         <p>Dépassez totalement votre peur de vous exprimer couramment en Anglais.</p>
