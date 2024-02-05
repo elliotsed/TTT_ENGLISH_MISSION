@@ -17,7 +17,6 @@ function App() {
       <Section1 />
       <Infos />
       <Temoignage />
-
       <Steps />
       <Formation />
 
