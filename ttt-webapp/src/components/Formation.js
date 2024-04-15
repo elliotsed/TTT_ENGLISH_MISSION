@@ -1,5 +1,5 @@
 import React from 'react';
-import training1 from "../images/sepfa.jpg";
+import training1 from "../images/tesdepro.jpeg";
 import training2 from "../images/40days1.png";
 import training3 from "../images/presentiel.png";
 import { Icon } from '@iconify/react';
@@ -19,8 +19,7 @@ function Formation() {
                         <div class="card h-100">
                             <img src={training1} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title">Direct Practical Spoken English Program For Adults</h5>
-                                <p class="card-text">Saisissez l'opportunité d'être formé ce mois pour vous exprimer couramment en anglais avec le programme d'accélération TES.DE.PRO</p>
+                                <h5 class="card-title">Tutorat Personnel Certifié d'Accélération en Anglais Parlé (TESDEPRO)</h5>
                             </div>
                         </div>
                     </div>
