@@ -34,7 +34,7 @@ function App() {
             <p className="custom-size mt-3"><Icon icon="material-symbols:call" color="white" width={35}/> +229 94605100</p>
 
             <div className="d-flex justify-content-center">
-              <a className="btn custom-color" href="https://wa.me/+22969109929/?text=Bonjour%20!%20Je%20suis%20intéressé%20par%20vos%20formations.">
+              <a className="btn custom-color" href="https://wa.me/+22994605100/?text=Bonjour%20!%20Je%20suis%20intéressé%20par%20vos%20formations.">
                 <Icon icon="logos:whatsapp-icon" width={30} /> Whatsapp
               </a>
             </div>
